@@ -75,6 +75,33 @@ img {
   text-transform: capitalize;
 }
 
+.button-order {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  margin-bottom: 188px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  transition: var(--transition-background-color-timing);
+}
+
+.button-order:hover,
+.button-order:focus {
+  background-color: #404bbf;
+}
+
 /* header */
 
 .header {
@@ -228,33 +255,6 @@ img {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
-}
-
-.section-hero .button-order {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  margin-bottom: 188px;
-  padding: 16px 32px;
-  border-radius: 4px;
-  display: block;
-  margin: 0 auto;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
-  transition: var(--transition-background-color-timing);
-}
-
-.section-hero .button-order:hover,
-.button-order:focus {
-  background-color: #404bbf;
 }
 
 /* second section */
@@ -563,34 +563,7 @@ img {
 .portfolio-filter-link:focus .paragraph {
   transform: translateY(0%);
 }
-
-/* .images-box:hover .paragraph {
-  transform: translateY(0%);
-}
-
-.images-box:focus .paragraph {
-  transform: translateY(0%);
-} */
-
-/* .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #4d5ae5;
-  padding: 40px 32px;
-
-  transition-property: transform;
-  transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
-}
-
-.images-box:hover .overlay {
-  transform: translateY(0%);
-} */
-
-.border-cards {
+w .border-cards {
   border: 1px solid #e7e9fc;
   border-top: 0;
   padding: 32px 16px;
@@ -953,6 +926,8 @@ img {
 .user-agreements-style {
   display: flex;
   align-items: center;
+
+  margin-bottom: 24px;
 }
 
 .modal-window-check {

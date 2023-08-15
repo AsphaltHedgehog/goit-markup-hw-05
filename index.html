@@ -477,7 +477,7 @@
           Leave your contacts and we will call you back
         </strong>
         <!-- name input -->
-        <form action="">
+        <form action="" class="modal-window-form">
           <label for="modal-input-name" class="modal-window-label"> 
             Name
           </label>
@@ -511,13 +511,15 @@
           <textarea name="user_comment" id="input-comment" rows="7" class="modal-window-input input-comment" placeholder="Text input">
           </textarea>
 
-          <div class="user-agreements-style">
+          <label class="user-agreements-style">
             <input type="checkbox" name="license_agreement" class="modal-window-check">
             <span class="agreement-text">
               I accept the terms and conditions of the
             <a href="" class="policy-link">Privacy Policy</a>
             </span>
-          </div>
+          </label>
+
+          <button type="submit" class="button-order">Send</button>
         </form>
         
       </div>
