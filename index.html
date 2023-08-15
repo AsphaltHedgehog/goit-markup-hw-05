@@ -473,7 +473,30 @@
             <use href="./images/icons.svg#icon-x-button"></use>
           </svg>
         </button>
-        <strong class="modal-title">Leave your contacts and we will call you back</strong>
+        <strong class="modal-window-title">
+          Leave your contacts and we will call you back
+        </strong>
+        <!-- name input -->
+        <form action="">
+          <label for="modal-input-name" class="modal-window-label"> 
+            Name
+          </label>
+          <input type="text" id="modal-input-name" class="modal-window-input  name">
+
+          <label for="modal-input-phone" class="modal-window-label"> 
+            Phone
+          </label>
+          <input type="text" id="modal-input-phone" class="modal-window-input  phone">
+
+          <label for="modal-input-mail" class="modal-window-label"> 
+            E-mail
+          </label>
+          <input type="text" id="modal-input-mail" class="modal-window-input  mail">
+          
+          <label for="input-comment" class="modal-window-label">Comments</label>
+          <textarea name="" id="input-comment" rows="7" class="modal-window-input input-comment" placeholder="Text input"></textarea>
+        </form>
+        
       </div>
     </div>
     <script src="./js/modal.js"></script>
