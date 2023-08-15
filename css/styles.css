@@ -773,6 +773,63 @@ img {
   transition: fill 250ms var(--cubic-anim);
 }
 
+/* subscribe form */
+
+.box-subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  width: 453px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.form-subscribe {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-subscribe-label {
+  margin-bottom: 16px;
+  margin-right: 378px;
+
+  color: #fff;
+}
+
+.form-subscribe-input {
+  display: inline-block;
+  width: 264px;
+  height: 40px;
+
+  box-sizing: border-box;
+  padding: 8px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+
+  color: #fff;
+  background-color: #2e2f42;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button-subscribe-submit {
+  display: flex;
+  width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+
+  background-color: #4d5ae5;
+
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
 /* js modal is-hidden */
 
 .is-hidden {
