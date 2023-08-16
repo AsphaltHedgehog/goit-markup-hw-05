@@ -914,10 +914,6 @@ w .border-cards {
   fill: #4d5ae5;
 }
 
-/* .modal-input-icon-name {
-  bottom: 11px;
-} */
-
 .input-comment {
   resize: none;
 
@@ -925,7 +921,6 @@ w .border-cards {
   padding: 8px 16px;
   padding-bottom: 0px;
   overflow: auto;
-  margin-bottom: 16px;
 
   font-size: 12px;
   line-height: 1.17;
@@ -943,6 +938,10 @@ w .border-cards {
   font-weight: 400;
   line-height: 1.16;
   font-family: inherit;
+}
+
+.modal-textarea {
+  margin-bottom: 16px;
 }
 
 /* agreements checkbox */
