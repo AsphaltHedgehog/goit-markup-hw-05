@@ -635,7 +635,7 @@ w .border-cards {
 }
 
 .footer .paragraph:nth-child(1) {
-  color: #fff;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -681,8 +681,8 @@ w .border-cards {
 /* subscribe form */
 
 .box-subscribe-form {
-  display: inline-flex;
-  align-items: baseline;
+  /* display: inline-flex;
+  align-items: baseline; */
   gap: 24px;
 
   width: 453px;
@@ -691,19 +691,18 @@ w .border-cards {
 
 .form-subscribe {
   display: flex;
-  flex-wrap: wrap;
+  gap: 24px;
 }
 
-.form-subscribe-label {
-  top: 0;
-  left: 0;
+.form-subscribe-paragraph {
   margin-bottom: 16px;
-
-  color: #fff;
 }
 
 .form-subscribe-input {
-  display: inline-block;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
   width: 264px;
   height: 40px;
 
@@ -711,11 +710,11 @@ w .border-cards {
   padding: 8px;
   padding-left: 16px;
   border-radius: 4px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
 
-  /* color: #fff; */
-  background-color: #2e2f42;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 
   outline: none;
 }
@@ -724,12 +723,18 @@ w .border-cards {
   border-color: #4d5ae5;
 }
 
+.form-subscribe-input::placeholder {
+  color: #ffffff;
+}
+
 .button-subscribe-submit {
   display: flex;
-  width: 165px;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
-  gap: 16px;
 
   background-color: #4d5ae5;
   border: none;
@@ -737,8 +742,9 @@ w .border-cards {
 
   cursor: pointer;
 
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -746,18 +752,13 @@ w .border-cards {
   text-transform: capitalize;
 }
 
-.form-subscribe-input::placeholder {
-  color: #fff;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
-}
-
 .box-subscribe-button {
   display: flex;
   gap: 24px;
+}
+
+.svg-subscribe-submit {
+  margin-left: 16px;
 }
 
 /* js modal window for order_service */
