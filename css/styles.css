@@ -969,11 +969,9 @@ w .border-cards {
   align-items: center;
   justify-content: center;
 
-  position: absolute;
-  left: 0;
-
   width: 16px;
   height: 16px;
+  margin-right: 8px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -997,6 +995,7 @@ w .border-cards {
 /* visually-hidden */
 
 .visually-hidden {
+  position: absolute;
   opacity: 0;
   visibility: hidden;
 }
